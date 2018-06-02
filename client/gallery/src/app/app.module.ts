@@ -6,11 +6,13 @@ import { SharedModule } from './modules/shared/shared.module';
 import { RoutingModule } from './modules/core/routing/routing.module';
 import { RouterModule } from '@angular/router';
 import { EntryComponent } from './entry/entry.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
     declarations: [
         MainComponent,
         EntryComponent,
+        NotFoundComponent,
     ],
     imports: [
         BrowserModule,
